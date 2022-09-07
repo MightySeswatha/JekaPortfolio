@@ -20,6 +20,13 @@ Colors
 #9fbb8a
 */
 
+hr{
+visibility: hidden;
+margin: 0;
+height: 0;
+width: 0;
+}
+
 header{
 position: fixed;
 display: flex;
@@ -64,7 +71,7 @@ width: 30%;
 
 .head_block1{
 display: flex;
-width: 30%;
+width: 440px;
 flex-wrap: nowrap;
 justify-content: space-between;
 /*border: 1px solid red;*/
@@ -106,14 +113,16 @@ transition: 1s;
 .name a:hover,
 .btn_work a:hover,
 .btn_about a:hover,
-.btn_contact a:hover{
+.btn_contact a:hover,
+.btn_skills a:hover{
 color: #eff4ff;
 }
 
 .name a:after,
 .btn_work a:after,
 .btn_about a:after,
-.btn_contact a:after{
+.btn_contact a:after,
+.btn_skills a:after{
   display: block;
 	position: absolute;
 	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
@@ -129,24 +138,28 @@ color: #eff4ff;
 .btn_work a:hover:after,
 .btn_about a:hover:after,
 .btn_contact a:hover:after,
+.btn_skills a:hover:after,
 .btn_work a:focus:after,
 .btn_about a:focus:after,
-.btn_contact a:focus:after {
+.btn_contact a:focus:after,
+.btn_skills a:focus:after {
 	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
 }
 
 .btn_work,
 .btn_about,
-.btn_contact{
+.btn_contact,
+.btn_skills{
 display: flex;
-width: 33.333333%;
+width: 25%;
 align-items: center;
 justify-content: center;
 }
 
 .btn_work a,
 .btn_about a,
-.btn_contact a{
+.btn_contact a,
+.btn_skills a{
 position: relative;
 width: 100%;
 color: #d8dce7;
