@@ -31,7 +31,7 @@ header{
 position: fixed;
 display: flex;
 width: 100%;
-height: 60px;
+height: 50px;
 top: 0;
 left: 0;
 align-items: center;
@@ -46,7 +46,7 @@ display: flex;
 top: 0;
 left: 0;
 width: 100%;
-height: 60px;
+height: 50px;
 background-color: #282c35;
 /*
 Сделать размытие
@@ -57,7 +57,7 @@ z-index: 2;
 .head{
 display: flex;
 width: 76%;
-height: 60px;
+height: 50px;
 flex-wrap: nowrap;
 justify-content: space-between;
 z-index: 3;
@@ -67,6 +67,8 @@ z-index: 3;
 display: flex;
 width: 30%;
 /*border: 1px solid red;*/
+align-items: center;
+
 }
 
 .head_block1{
@@ -87,8 +89,8 @@ justify-content: flex-end;
 
 .fox_icon{
 display: block;
-width: 60px;
-height: 60px;
+width: 40px;
+height: 40px;
 margin-left: 10px;
 background-image: url("../images/fox_icon.png");
 background-size: cover;
@@ -163,7 +165,7 @@ justify-content: center;
 position: relative;
 width: 100%;
 color: #d8dce7;
-font-size: 32px;
+font-size: 24px;
 text-decoration: none;
 text-align: center;
 cursor: pointer;
@@ -174,8 +176,8 @@ transition: 1s;
 position: relative;
 display: inline-block;
 margin-right: 15px;
-height: 40px;
-width: 40px;
+height: 28px;
+width: 28px;
 background-image: url("../images/git-icon.png");
 background-size: cover;
 transition: 1.5s;
@@ -185,8 +187,8 @@ transition: 1.5s;
 position: relative;
 display: inline-block;
 margin-right: 15px;
-height: 40px;
-width: 40px;
+height: 28px;
+width: 28px;
 background-image: url("../images/dis-icon.png");
 background-size: cover;
 transition: 1.5s;
@@ -196,8 +198,8 @@ transition: 1.5s;
 position: relative;
 display: inline-block;
 margin-right: 15px;
-height: 40px;
-width: 40px;
+height: 28px;
+width: 28px;
 background-image: url("../images/tg-icon.png");
 background-size: cover;
 transition: 1.5s;
@@ -207,8 +209,8 @@ transition: 1.5s;
 position: relative;
 display: inline-block;
 margin-right: 0px;
-height: 40px;
-width: 40px;
+height: 28px;
+width: 28px;
 background-image: url("../images/ema-icon.png");
 background-size: cover;
 transition: 1.5s;
@@ -255,6 +257,8 @@ position: relative;
 display: flex;
 align-items: center;
 justify-content: center;
+padding: 32px 10px 48px 10px;
+box-sizing: border-box;
 width: 100%;
 height: 100%;
 border: 1px solid white;
@@ -267,6 +271,7 @@ width: 60%;
 height: 100%;
 align-items: center;
 justify-content: center;
+box-sizing: border-box;
 }
 
 .desc_block_text{
@@ -330,9 +335,10 @@ z-index: 1;
 display: flex;
 position: relative;
 align-items: center;
-justify-content: flex-start;
+justify-content: center;
 width: 40%;
 height: 100%;
+box-sizing:border-box;
 }
 
 .desc_img_Jeka8833{
@@ -352,30 +358,12 @@ position: relative;
 display: flex;
 flex-direction: column;
 width: 100%;
-padding: 32px 0 48px;
+padding: 32px 10px 48px 10px;
+box-sizing: border-box;
 border: 1px solid #fff;
 }
 
-.skills h1{
-font-size: 32px;
-color: #FFB160;
-}
-
-.works{
-position: relative;
-display: flex;
-flex-direction: column;
-width: 100%;
-padding: 32px 0 48px;
-border: 1px solid #fff;
-}
-
-.works h1{
-font-size: 32px;
-color: #FFB160;
-}
-
-.works .row{
+.skills .row{
 position: relative;
 display: flex;
 flex-direction: row;
@@ -386,10 +374,95 @@ width: 100%;
 border: 1px solid red;
 }
 
+.skills h1{
+font-size: 32px;
+color: #FFB160;
+}
+
+.skills_text{
+display: block;
+width: 520px;
+height: 360px;
+font-size: 18px;
+color: #d8dce7;
+border: 1px solid red;
+}
+
+.diag{
+display: block;
+width: 600px;
+height: 360px;
+background-image: url("../images/diag.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+border: 1px solid red;
+}
+
+.works{
+position: relative;
+display: flex;
+flex-direction: column;
+width: 100%;
+padding: 32px 10px 48px 10px;
+box-sizing: border-box;
+border: 1px solid #fff;
+}
+
+.works h1{
+font-size: 32px;
+color: #FFB160;
+}
+
+.works p{
+font-size: 22px;
+color: #d8dce7;
+}
+
+.works .row{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0 32px;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.prev{
+display: block;
+width: 40px;
+height: 40px;
+background-image: url("../images/prev.png");
+background-repeat: no-repeat;
+background-size: cover;
+border: 1px solid red;
+}
+
 .block_work{
 display: block;
+width: 600px;
+height: 400px;
+background-image: url("../images/project1.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+border: 1px solid red;
+}
+
+.text_work{
+display: block;
 width: 360px;
-height: 240px;
+height: 400px;
+border: 1px solid red;
+}
+
+.next{
+display: block;
+width: 40px;
+height: 40px;
+background-image: url("../images/next.png");
+background-repeat: no-repeat;
+background-size: cover;
 border: 1px solid red;
 }
 
@@ -398,7 +471,8 @@ position: relative;
 display: flex;
 flex-direction: column;
 width: 100%;
-padding: 32px 0 48px;
+padding: 32px 10px 48px 10px;
+box-sizing: border-box;
 border: 1px solid #fff;
 }
 
@@ -407,12 +481,18 @@ font-size: 32px;
 color: #FFB160;
 }
 
+.about p{
+font-size: 22px;
+color: #d8dce7;  
+}
+
 .contact{
 position: relative;
 display: flex;
 flex-direction: column;
 width: 100%;
-padding: 32px 0 48px;
+padding: 32px 10px 48px 10px;
+box-sizing: border-box;
 border: 1px solid #fff;
 }
 
