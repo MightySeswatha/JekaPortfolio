@@ -9,6 +9,10 @@ align-items: center;
 justify-content: center;
 }
 
+html {
+scroll-behavior: smooth;
+}
+
 /*
 Colors
 #282c35
@@ -476,6 +480,17 @@ box-sizing: border-box;
 border: 1px solid #fff;
 }
 
+.about .row{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0 32px;
+  width: 100%;
+  border: 1px solid red;
+}
+
 .about h1{
 font-size: 32px;
 color: #FFB160;
@@ -483,7 +498,13 @@ color: #FFB160;
 
 .about p{
 font-size: 22px;
-color: #d8dce7;  
+color: #d8dce7;
+}
+
+.about_text{
+display: block;
+width: 900px;
+border: 1px solid red;
 }
 
 .contact{
@@ -499,4 +520,63 @@ border: 1px solid #fff;
 .contact h1{
 font-size: 32px;
 color: #FFB160;
+}
+
+.contact .row{
+position: relative;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding: 16px 0 32px;
+width: 100%;
+border: 1px solid red;
+}
+
+.contact_block{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+padding: 10px 0;
+width: 320px;
+height: 400px;
+box-sizing: border-box;
+border: 1px solid red;
+}
+
+.contact_git{
+display: block;
+width: 64px;
+height: 64px;
+background-image: url("../images/git-icon.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.contact_dis{
+display: block;
+width: 64px;
+height: 64px;
+background-image: url("../images/dis-icon.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.contact_tel{
+display: block;
+width: 64px;
+height: 64px;
+background-image: url("../images/tg-icon.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.contact_ema{
+display: block;
+width: 64px;
+height: 64px;
+background-image: url("../images/ema-icon.png");
+background-repeat: no-repeat;
+background-size: cover;
 }
