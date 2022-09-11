@@ -111,7 +111,7 @@ margin-left: 10px;
 position: relative;
 color: #d8dce7;
 text-decoration: none;
-font-size: 40px;
+font-size: 32px;
 cursor: pointer;
 transition: 1s;
 }
@@ -134,7 +134,7 @@ color: #eff4ff;
 	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
 	width: 0;/*задаём длинну линии до наведения курсора*/
 	height: 2px; /*задаём ширину линии*/
-	background-color: #da727d; /*задаём цвет линии*/
+	background-color: #FFB160; /*задаём цвет линии*/
 	content: "";
 	transition: width 0.3s ease-out; /*задаём время анимации*/
 }
@@ -393,12 +393,47 @@ border: 1px solid red;
 }
 
 .diag{
-display: block;
+position: relative;
+display: flex;
+align-items: flex-end;
+justify-content: space-between;
 width: 600px;
 height: 360px;
-background-image: url("../images/diag.jpg");
-background-size: cover;
-background-repeat: no-repeat;
+border-bottom: 5px solid #22262f;
+}
+
+.d_block1{
+display: block;
+width: 60px;
+height: 80px;
+border: 1px solid red;
+}
+
+.d_block2{
+display: block;
+width: 60px;
+height: 140px;
+border: 1px solid red;
+}
+
+.d_block3{
+display: block;
+width: 60px;
+height: 190px;
+border: 1px solid red;
+}
+
+.d_block4{
+display: block;
+width: 60px;
+height: 160px;
+border: 1px solid red;
+}
+
+.d_block5{
+display: block;
+width: 60px;
+height: 240px;
 border: 1px solid red;
 }
 
@@ -406,19 +441,22 @@ border: 1px solid red;
 position: relative;
 display: flex;
 flex-direction: column;
+align-items: center;
+justify-content: center;
 width: 100%;
 padding: 32px 10px 48px 10px;
 box-sizing: border-box;
-border: 1px solid #fff;
 }
 
 .works h1{
 font-size: 32px;
+text-align: center;
 color: #FFB160;
 }
 
 .works p{
-font-size: 22px;
+font-size: 18px;
+text-align: justify;
 color: #d8dce7;
 }
 
@@ -427,26 +465,20 @@ color: #d8dce7;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  margin-top: 10px;
   padding: 16px 0 32px;
   width: 100%;
   border: 1px solid red;
 }
 
-.prev{
-display: block;
-width: 40px;
-height: 40px;
-background-image: url("../images/prev.png");
-background-repeat: no-repeat;
-background-size: cover;
-border: 1px solid red;
-}
-
 .block_work{
+position: flex;
 display: block;
 width: 600px;
 height: 400px;
+margin-right: 10px;
+background-position: center;
 background-image: url("../images/project1.jpg");
 background-size: cover;
 background-repeat: no-repeat;
@@ -454,19 +486,21 @@ border: 1px solid red;
 }
 
 .text_work{
+position: flex;
 display: block;
+margin-left: 10px;
+padding: 10px;
 width: 360px;
 height: 400px;
+box-sizing: border-box;
 border: 1px solid red;
 }
 
-.next{
-display: block;
-width: 40px;
-height: 40px;
-background-image: url("../images/next.png");
-background-repeat: no-repeat;
-background-size: cover;
+.btn_see{
+display: flex;
+margin-top: 10px;
+width: 120px;
+height: 60px;
 border: 1px solid red;
 }
 
