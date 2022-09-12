@@ -399,7 +399,7 @@ flex-direction: column;
 width: 500px;
 height: 340px;
 box-sizing: border-box;
-border-bottom: 7px solid #22262f;
+border-bottom: 9px solid #22262f;
 }
 
 .diag_line{
@@ -527,17 +527,28 @@ margin-top: 300px;
 position: relative;
 display: flex;
 flex-direction: column;
-align-items: center;
-justify-content: center;
 width: 100%;
 padding: 32px 10px 48px 10px;
 box-sizing: border-box;
 }
 
+.center{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100%;
+box-sizing: border-box;
+}
+
 .works h1{
 font-size: 32px;
-text-align: center;
 color: #FFB160;
+}
+
+.works .row h1{
+text-align: center;
 }
 
 .works p{
@@ -555,7 +566,6 @@ color: #d8dce7;
   margin-top: 10px;
   padding: 16px 0 32px;
   width: 100%;
-  border: 1px solid red;
 }
 
 .block_work{
@@ -568,7 +578,10 @@ background-position: center;
 background-image: url("../images/project1.jpg");
 background-size: cover;
 background-repeat: no-repeat;
-border: 1px solid red;
+-webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
+box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
+border: 1px solid #22262f;
 }
 
 .text_work{
@@ -579,7 +592,6 @@ padding: 10px;
 width: 360px;
 height: 400px;
 box-sizing: border-box;
-border: 1px solid red;
 }
 
 .btn_see{
@@ -594,7 +606,10 @@ box-sizing: border-box;
 
 .btn_see a:hover{
 background-color: #FFB160;
-color: #d8dce7;
+color: #eff4ff;
+-webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
+box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
 }
 
 .btn_see a{
@@ -618,7 +633,6 @@ flex-direction: column;
 width: 100%;
 padding: 32px 10px 48px 10px;
 box-sizing: border-box;
-border: 1px solid #fff;
 }
 
 .about .row{
@@ -629,7 +643,6 @@ border: 1px solid #fff;
   justify-content: space-between;
   padding: 16px 0 32px;
   width: 100%;
-  border: 1px solid red;
 }
 
 .about h1{
@@ -644,8 +657,31 @@ color: #d8dce7;
 
 .about_text{
 display: block;
-width: 900px;
-border: 1px solid red;
+width: 75%;
+height: 400px;
+}
+
+.about_image{
+display: flex;
+position: relative;
+align-items: center;
+justify-content: center;
+width: 25%;
+height: 400px;
+box-sizing:border-box;
+}
+
+.about_image_Jeka8833{
+  display: block;
+  position: relative;
+  width: 240px;
+  height: 240px;
+  background-image: url("../images/fox_icon2.jpg");
+  background-size: cover;
+  background-color: #22262f;
+  border: 15px solid #4b4f5b;
+  border-radius: 50%;
+  box-sizing:border-box;
 }
 
 .contact{
@@ -655,12 +691,16 @@ flex-direction: column;
 width: 100%;
 padding: 32px 10px 48px 10px;
 box-sizing: border-box;
-border: 1px solid #fff;
 }
 
 .contact h1{
 font-size: 32px;
 color: #FFB160;
+}
+
+.contact h2{
+color: #d8dce7;
+height: 0px;
 }
 
 .contact .row{
@@ -675,6 +715,7 @@ border: 1px solid red;
 }
 
 .contact_block{
+position: relative;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -720,4 +761,32 @@ height: 64px;
 background-image: url("../images/ema-icon.png");
 background-repeat: no-repeat;
 background-size: cover;
+}
+
+.contact p{
+padding: 10px;
+text-align: justify;
+color: #d8dce7;
+border: 1px solid red;
+}
+
+.btn_con{
+position: absolute;
+display: flex;
+bottom: 10px;
+width: 150px;
+height: 40px;
+border-radius: 15px;
+border: 1px solid red;
+}
+
+.btn_con a{
+display: flex;
+width: 100%;
+height: 100%;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+color: #d8dce7;
+font-size: 22px;
 }
