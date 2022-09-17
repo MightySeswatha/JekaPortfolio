@@ -5,6 +5,7 @@ const m = document.getElementById("menu");
 
 m_btn.onclick = function(){
 m.classList.toggle("menu-list");
+m.classList.toggle("off");
 }
 
 };

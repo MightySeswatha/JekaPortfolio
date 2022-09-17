@@ -94,8 +94,16 @@ background-size: cover;
 display: none;
 }
 
+#menu_btn{
+
+}
+
 #menu{
 
+}
+
+.off{
+display: none;
 }
 
 .menu-list{
