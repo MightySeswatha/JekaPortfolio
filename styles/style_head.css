@@ -7,17 +7,17 @@ top: 0;
 left: 0;
 align-items: center;
 justify-content: center;
-z-index: 3;
 box-shadow: 0px -10px 35px 15px #4b4f5b;
+z-index: 3;
 }
 
 .head_back{
 position: absolute;
 display: flex;
-top: 0;
-left: 0;
 width: 100%;
 height: 50px;
+top: 0;
+left: 0;
 background-color: #282c35;
 z-index: 2;
 }
@@ -81,20 +81,20 @@ display: none;
 .menu-list{
 position: fixed;
 display: flex;
-top: 50px;
 width: 100%;
+top: 49px;
 right: 0;
 flex-direction: column;
-background-color: #282c35;
 border-bottom: 1px solid #4b4f5b;
+background-color: #282c35;
 }
 
 .menu-list .btn_skills,
 .menu-list .btn_work,
 .menu-list .btn_about,
 .menu-list .btn_contact{
-margin-top: 10px;
 width: 100%;
+margin-top: 10px;
 }
 
 .menu-list .btn_contact{
@@ -103,9 +103,9 @@ margin-bottom: 10px;
 
 .name{
 display: flex;
+margin-left: 10px;
 align-items: center;
 justify-content: center;
-margin-left: 10px;
 }
 
 .name a{
@@ -130,14 +130,14 @@ color: #eff4ff;
 .btn_about a:after,
 .btn_contact a:after,
 .btn_skills a:after{
-  display: block;
-	position: absolute;
-	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
-	width: 0;/*задаём длинну линии до наведения курсора*/
-	height: 2px; /*задаём ширину линии*/
-	background-color: #FFB160; /*задаём цвет линии*/
-	content: "";
-	transition: width 0.3s ease-out; /*задаём время анимации*/
+display: block;
+position: absolute;
+height: 2px;
+left: 0;
+width: 0;
+background-color: #FFB160;
+content: "";
+transition: width 0.3s ease-out;
 }
 
 .name a:hover:after,
@@ -150,7 +150,7 @@ color: #eff4ff;
 .btn_about a:focus:after,
 .btn_contact a:focus:after,
 .btn_skills a:focus:after {
-	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+width: 100%;
 }
 
 .btn_work,
@@ -177,48 +177,36 @@ cursor: pointer;
 transition: 1s;
 }
 
-.icon_git{
-position: relative;
-display: inline-block;
-margin-right: 15px;
-height: 28px;
-width: 28px;
-background-image: url("../images/git-icon.png");
-background-size: cover;
-transition: 1.5s;
-}
-
-.icon_dis{
-position: relative;
-display: inline-block;
-margin-right: 15px;
-height: 28px;
-width: 28px;
-background-image: url("../images/dis-icon.png");
-background-size: cover;
-transition: 1.5s;
-}
-
-.icon_tel{
-position: relative;
-display: inline-block;
-margin-right: 15px;
-height: 28px;
-width: 28px;
-background-image: url("../images/tg-icon.png");
-background-size: cover;
-transition: 1.5s;
-}
-
+.icon_git,
+.icon_dis,
+.icon_tel,
 .icon_ema{
 position: relative;
 display: inline-block;
-margin-right: 0px;
 height: 28px;
 width: 28px;
-background-image: url("../images/ema-icon.png");
 background-size: cover;
 transition: 1.5s;
+}
+
+.icon_git{
+margin-right: 15px;
+background-image: url("../images/git-icon.png");
+}
+
+.icon_dis{
+margin-right: 15px;
+background-image: url("../images/dis-icon.png");
+}
+
+.icon_tel{
+margin-right: 15px;
+background-image: url("../images/tg-icon.png");
+}
+
+.icon_ema{
+margin-right: 0px;
+background-image: url("../images/ema-icon.png");
 }
 
 .icon_git a,
@@ -229,7 +217,6 @@ position: absolute;
 width: 100%;
 height: 100%;
 cursor: pointer;
-/*border: 1px solid gold;*/
 }
 
 .icon_git:hover{

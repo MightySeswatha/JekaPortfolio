@@ -1,17 +1,17 @@
 @font-face{
-    font-family: 'Lato';
-    src: url(fonts/Lato-Regular.ttf);
+font-family: 'Lato';
+src: url(fonts/Lato-Regular.ttf);
 }
 
 body{
 box-sizing: border-box;
-background-color: #282c35;
 padding: 0;
 margin: 0;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+background-color: #282c35;
 font-family: 'Lato', sans-serif;
 }
 
@@ -21,15 +21,15 @@ scroll-behavior: smooth;
 
 hr{
 visibility: hidden;
-margin: 0;
 height: 0;
 width: 0;
+margin: 0;
 }
 
 .wrapper2{
 position: absolute;
 display: block;
-top: 0;
 width: 76%;
 height: 100%;
+top: 0;
 }
