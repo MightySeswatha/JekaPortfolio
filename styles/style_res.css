@@ -1,0 +1,230 @@
+
+@media screen and (max-width: 400px){
+
+html{
+font-size: 7px;
+}
+
+.head_block{
+width: 100%;
+}
+
+.head_block1,
+.head_block2{
+display: none;
+}
+
+.head{
+justify-content: center;
+align-items: center;
+}
+
+.fox_icon{
+margin-left: 0;
+}
+
+.name{
+margin-left: 0;
+}
+
+.menu-icon{
+display: flex;
+margin-left: auto;
+width: 48px;
+height: 48px;
+align-items: center;
+justify-content: center;
+}
+
+.menu-icon a{
+width: 100%;
+height: 100%;
+background-image: url("../images/menu-icon.png");
+background-repeat: no-repeat;
+background-size: cover;
+transition: 1s;
+}
+
+.menu-icon a:hover{
+background-image: url("../images/menu1-icon.png");
+}
+
+.wrapper2{
+width: 76%;
+}
+
+.desc{
+flex-direction: column;
+}
+
+.desc_text{
+width: 100%;
+}
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px){
+
+  html{
+  font-size: 8px;
+  }
+
+  .head_block{
+  width: 100%;
+  }
+
+  .head_block1,
+  .head_block2{
+  display: none;
+  }
+
+  .head{
+  justify-content: center;
+  align-items: center;
+  }
+
+  .fox_icon{
+  margin-left: 0;
+  }
+
+  .name{
+  margin-left: 0;
+  }
+
+  .menu-icon{
+  display: flex;
+  margin-left: auto;
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .menu-icon a{
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/menu-icon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 1s;
+  }
+
+  .menu-icon a:hover{
+  background-image: url("../images/menu1-icon.png");
+  }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px){
+
+html{
+font-size: 9px;
+}
+
+.head{
+justify-content: flex-start;
+}
+
+.head_block{
+width: 40%;
+}
+
+.head_block1{
+display: none;
+}
+
+.head_block2{
+width: 40%;
+}
+
+.menu-icon1{
+  display: flex;
+  margin-left: auto;
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-icon1 a{
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/menu-icon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 1s;
+}
+
+.menu-icon1 a:hover{
+background-image: url("../images/menu1-icon.png");
+}
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1024px){
+
+html{
+font-size: 10px;
+}
+
+.head_block1{
+width: 400px;
+}
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+
+html{
+font-size: 10px;
+}
+
+}
+
+@media screen and (min-width: 1600px) {
+
+html{
+font-size: 14px;
+}
+
+header,
+.head_back,
+.head{
+height: 70px;
+}
+
+.head_block,
+.head_block1,
+.head_block2{
+height: 70px;
+}
+
+.head_block1{
+width: 640px;
+}
+
+.fox_icon{
+width: 48px;
+height: 48px;
+}
+
+.icon_git,
+.icon_dis,
+.icon_tel,
+.icon_ema{
+width: 36px;
+height: 36px;
+}
+
+.desc_img_Jeka8833{
+  width: 480px;
+  height: 480px;
+}
+
+.btn_get,
+.btn_get_shadow{
+  width: 220px;
+  height: 76px;
+}
+
+}

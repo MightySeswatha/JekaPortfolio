@@ -1,0 +1,103 @@
+.desc{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 32px 10px 48px 10px;
+box-sizing: border-box;
+width: 100%;
+height: 100%;
+border: 1px solid red;
+}
+
+.desc_text{
+display: flex;
+position: relative;
+width: 60%;
+height: 100%;
+align-items: center;
+justify-content: center;
+box-sizing: border-box;
+border: 1px solid red;
+}
+
+.desc_block_text{
+width: 100%;
+height: 50%;
+border: 1px solid red;
+}
+
+.desc_block_text h1{
+font-size: 3.2rem;
+color: #FFB160;
+border: 1px solid red;
+}
+
+.desc_block_text p{
+padding: 24px 190px 32px 0;
+line-height: 32px;
+font-size:  1.8rem;
+color: #d8dce7;
+}
+
+.btn_get{
+position: relative;
+display: block;
+top: 50px;
+margin-left: 15px;
+width: 180px;
+height: 56px;
+z-index: 2;
+transition: 0.5s;
+}
+
+.btn_get:hover{
+margin-left: 5px;
+top: 60px;
+}
+
+.btn_get a{
+display: flex;
+position: absolute;
+width: 100%;
+height: 100%;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+background-color: #FFB160;
+font-size: 1.8rem;
+color: #22262f;
+}
+
+.btn_get_shadow{
+display: block;
+position: absolute;
+margin-left: 0px;
+margin-top: 10px;
+width: 180px;
+height: 56px;
+background-color: #22262f;
+z-index: 1;
+}
+
+.desc_img{
+display: flex;
+position: relative;
+align-items: center;
+justify-content: center;
+width: 40%;
+height: 100%;
+box-sizing:border-box;
+}
+
+.desc_img_Jeka8833{
+display: block;
+position: relative;
+width: 320px;
+height: 320px;
+background-image: url("../images/desc_img.png");
+background-size: cover;
+background-color: #22262f;
+border: 15px solid #4b4f5b;
+border-radius: 50%;
+}

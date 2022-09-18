@@ -1,0 +1,57 @@
+.about{
+position: relative;
+display: flex;
+flex-direction: column;
+width: 100%;
+padding: 32px 10px 48px 10px;
+box-sizing: border-box;
+}
+
+.about .row{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0 32px;
+  width: 100%;
+}
+
+.about h1{
+font-size: 3.2rem;
+color: #FFB160;
+}
+
+.about p{
+font-size: 1.8rem;
+color: #d8dce7;
+}
+
+.about_text{
+display: block;
+width: 75%;
+height: 400px;
+}
+
+.about_image{
+display: flex;
+position: relative;
+align-items: center;
+justify-content: center;
+width: 25%;
+height: 400px;
+box-sizing:border-box;
+}
+
+.about_image_Jeka8833{
+  display: block;
+  position: relative;
+  width: 240px;
+  height: 240px;
+  background-image: url("../images/fox_icon2.jpg");
+  background-size: cover;
+  background-color: #22262f;
+  border: 15px solid #4b4f5b;
+  border-radius: 50%;
+  box-sizing:border-box;
+}

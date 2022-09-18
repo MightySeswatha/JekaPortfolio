@@ -1,0 +1,168 @@
+.skills{
+position: relative;
+display: flex;
+flex-direction: column;
+width: 100%;
+padding: 32px 10px 48px 10px;
+box-sizing: border-box;
+}
+
+.skills .row{
+position: relative;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 16px 0 32px;
+width: 100%;
+}
+
+.skills h1{
+font-size: 3.2rem;
+color: #FFB160;
+}
+
+.skills_text{
+display: block;
+width: 500px;
+height: 360px;
+padding: 0 10px;
+box-sizing: border-box;
+font-size: 1.8rem;
+color: #d8dce7;
+}
+
+.diag{
+position: relative;
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+flex-direction: column;
+width: 500px;
+height: 340px;
+box-sizing: border-box;
+border-bottom: 9px solid #22262f;
+}
+
+.diag_line{
+display: flex;
+width: 100%;
+height: 75px;
+z-index: 1;
+box-sizing: border-box;
+border-top: 2px dashed #fff;
+}
+
+.l_text{
+display: block;
+position: absolute;
+margin-top: -12.5px;
+color: #d8dce7;
+font-size: 1.4rem;
+}
+
+.l_text1{
+right: -45px;
+}
+
+.l_text2{
+right: -65px;
+}
+
+.l_text3{
+right: -55px;
+}
+
+.l_text4{
+right: -59px;
+}
+
+.diag_inner{
+position: absolute;
+display: flex;
+width: 100%;
+height: 100%;
+align-items: flex-end;
+justify-content: space-between;
+}
+
+.d_block1,
+.d_block2,
+.d_block3,
+.d_block4,
+.d_block5{
+display: flex;
+box-sizing: border-box;
+padding: 4px 4px 0;
+align-items: center;
+justify-content: center;
+-webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
+box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
+z-index: 2;
+}
+
+.d_block1{
+width: 60px;
+height: 240px;
+background-color: #68b3b6;
+}
+
+.d_block2{
+width: 60px;
+height: 190px;
+background-color: #9fbb8a;
+}
+
+.d_block3{
+width: 60px;
+height: 160px;
+background-color: #FFB160;
+}
+
+.d_block4{
+width: 60px;
+height: 80px;
+background-color: #ba9873;
+}
+
+.d_block5{
+width: 60px;
+height: 270px;
+background-color: #da727d;
+}
+
+.bor_block{
+display: block;
+width: 100%;
+height: 100%;
+box-sizing: border-box;
+border: 2px dashed #d8dce7;
+border-bottom: none;
+}
+
+.d_text{
+position: absolute;
+color: #d8dce7;
+font-size: 1.4rem;
+}
+
+.d_block1 .d_text{
+margin-top: 270px;
+}
+
+.d_block2 .d_text{
+margin-top: 220px;
+}
+
+.d_block3 .d_text{
+margin-top: 190px;
+}
+
+.d_block4 .d_text{
+margin-top: 110px;
+}
+
+.d_block5 .d_text{
+margin-top: 300px;
+}
