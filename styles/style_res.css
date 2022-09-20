@@ -68,20 +68,22 @@ flex-direction: column;
 
 .desc_text{
 width: 100%;
-height: 100%;
+height: 300px;
 }
 
 .desc_text p {
 width: 100%;
 padding: 0;
+font-size: 2.3rem;
 }
 
 .desc_img{
 width: 100%;
-height: 100%;
+height: 300px;
 }
 
 .desc_img_Jeka8833{
+margin-top: 80px;
 width: 240px;
 height: 240px;
 }
@@ -90,12 +92,46 @@ height: 240px;
 display: none;
 }
 
+.btn_get{
+display: none;
+}
+
+.btn_get1{
+position: relative;
+display: block;
+margin: auto;
+width: 160px;
+height: 56px;
+}
+
+.btn_get1 a{
+display: flex;
+position: absolute;
+width: 100%;
+height: 100%;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+font-size: 2.3rem;
+background-color: #FFB160;
+color: #22262f;
+transition: 1s;
+}
+
+.btn_get1 a:hover{
+background-color: #FFB160;
+color: #eff4ff;
+-webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
+box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
+}
+
 }
 
 @media screen and (min-width: 400px) and (max-width: 600px){
 
   html{
-  font-size: 8px;
+  font-size: 8.5px;
   }
 
   /*
@@ -144,6 +180,80 @@ display: none;
 
   .menu-icon a:hover{
   background-image: url("../images/menu1-icon.png");
+  }
+
+  /*
+  DESCRIPTION
+  */
+
+  .wrapper2{
+  width: 100%;
+  }
+
+  .desc{
+  width: 100%;
+  flex-direction: column;
+  }
+
+  .desc_text{
+  width: 100%;
+  height: 300px;
+  }
+
+  .desc_text p {
+  width: 100%;
+  padding: 0;
+  font-size: 2.3rem;
+  }
+
+  .desc_img{
+  width: 100%;
+  height: 300px;
+  }
+
+  .desc_img_Jeka8833{
+  margin-top: 30px;
+  width: 240px;
+  height: 240px;
+  }
+
+  .btn_get_shadow{
+  display: none;
+  }
+
+  .btn_get{
+  display: none;
+  }
+
+  .btn_get1{
+  position: relative;
+  display: block;
+  top: -60px;
+  margin:auto;
+  width: 160px;
+  height: 56px;
+  }
+
+  .btn_get1 a{
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 2.5rem;
+  background-color: #FFB160;
+  color: #22262f;
+  transition: 1s;
+  }
+
+  .btn_get1 a:hover{
+  background-color: #FFB160;
+  color: #eff4ff;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
   }
 
 }
@@ -196,6 +306,33 @@ width: 40%;
 background-image: url("../images/menu1-icon.png");
 }
 
+.wrapper2{
+width: 90%;
+}
+
+.desc{
+height: 70%;
+}
+
+.desc_block_text p{
+width: 90%;
+font-size: 2.8rem;
+}
+
+.desc_img{
+align-items: center;
+justify-content: center;
+}
+
+.desc_img_Jeka8833{
+width: 250px;
+height: 250px;
+}
+
+.btn_get a{
+font-size: 2.5rem;
+}
+
 }
 
 @media screen and (min-width: 900px) and (max-width: 1024px){
@@ -212,12 +349,47 @@ HEADER
 width: 400px;
 }
 
+/*
+DESCRIPTION
+*/
+
+.desc{
+height: 70%;
+}
+
+.desc_block_text p{
+width: 90%;
+font-size: 2.5rem;
+}
+
+.desc_img{
+align-items: center;
+justify-content: center;
+}
+
+.desc_img_Jeka8833{
+width: 260px;
+height: 260px;
+}
+
+.btn_get a{
+font-size: 2.5rem;
+}
+
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1600px) {
 
 html{
 font-size: 10px;
+}
+
+.desc{
+height: 100%;
+}
+
+.desc_block_text p{
+width: 80%;
 }
 
 }
@@ -261,6 +433,14 @@ width: 36px;
 height: 36px;
 }
 
+/*
+DESCRIPTION
+*/
+.desc_block_text p{
+width: 90%;
+font-size: 2.3rem;
+}
+
 .desc_img_Jeka8833{
   width: 480px;
   height: 480px;
@@ -270,6 +450,14 @@ height: 36px;
 .btn_get_shadow{
   width: 220px;
   height: 76px;
+}
+
+.btn_get:hover{
+top: 80px;
+}
+
+.btn_get a{
+font-size: 2.3rem;
 }
 
 }

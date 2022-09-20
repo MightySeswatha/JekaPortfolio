@@ -97,3 +97,7 @@ background-color: #22262f;
 border: 15px solid #4b4f5b;
 border-radius: 50%;
 }
+
+.btn_get1{
+display: none;
+}
