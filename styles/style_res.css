@@ -7,6 +7,22 @@ top: 100px;
 
 }
 
+@media screen and (max-width: 300px) and (min-width: 200px){
+
+.about_image_Jeka8833{
+top: 150px;
+}
+
+}
+
+@media screen and (max-width: 340px) and (min-width: 300px){
+
+.about_image_Jeka8833{
+top: 80px;
+}
+
+}
+
 @media screen and (max-width: 400px){
 
 html{
@@ -244,6 +260,53 @@ font-size: 2.3rem;
 }
 
 .btn_see a{
+font-size: 2.3rem;
+}
+
+/*
+ABOUT
+*/
+
+.about .row{
+flex-direction: column;
+}
+
+.about_text{
+width: 90%;
+height: 600px;
+text-align: justify;
+}
+
+.about_image{
+top: -100px;
+width: 90%;
+height: 300px;
+justify-content: center;
+align-items: center;
+}
+
+.about_text p {
+font-size: 2.3rem;
+}
+
+.about_image_Jeka8833{
+width: 200px;
+height: 200px;
+}
+
+/*
+CONTACTS
+*/
+
+.contact_block{
+width: 95%;
+}
+
+.contact_block p{
+font-size: 2.1rem;
+}
+
+.btn_con a{
 font-size: 2.3rem;
 }
 
@@ -496,6 +559,61 @@ font-size: 2.3rem;
 font-size: 2.3rem;
 }
 
+/*
+ABOUT
+*/
+
+.about .row{
+flex-direction: column;
+}
+
+.about_text{
+height: 600px;
+text-align: justify;
+}
+
+.about_image{
+width: 100%;
+height: 300px;
+justify-content: center;
+align-items: center;
+}
+
+.about_text p {
+font-size: 2.3rem;
+}
+
+.about_image_Jeka8833{
+top: 140px;
+width: 240px;
+height: 240px;
+}
+
+/*
+CONTACTS
+*/
+
+.contact_block{
+width: 75%;
+height: 500px;
+}
+
+.contact_block p{
+font-size: 2.3rem;
+}
+
+.btn_con a{
+font-size: 2.3rem;
+}
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px){
+
+.about_image_Jeka8833{
+top: 15px;
+}
+
 }
 
 @media screen and (min-width: 600px) and (max-width: 900px){
@@ -672,6 +790,10 @@ width: 400px;
 height: 280px;
 }
 
+.text_work{
+height: 530px;
+}
+
 .text_work p{
 font-size: 2.3rem;
 }
@@ -685,6 +807,63 @@ width: 220px;
 height: 76px;
 font-size: 2.5rem;
 }
+
+/*
+ABOUT
+*/
+
+.about_text p{
+font-size: 2.3rem;
+}
+
+.about_image{
+width: 260px;
+height: 600px;
+justify-content: center;
+align-items: center;
+}
+
+/*
+CONTACTS
+*/
+
+.contact{
+top: 270px;
+}
+
+.contact_block{
+width: 70%;
+height: 500px;
+}
+
+.contact_block p{
+font-size: 2.3rem;
+}
+
+.btn_con a{
+font-size: 2.3rem;
+}
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px){
+
+  .contact{
+  top: 70px;
+  }
+
+  .contact_block{
+  width: 49%;
+  height: 550px;
+  }
+
+  .contact_block p{
+  font-size: 2.3rem;
+  }
+
+  .btn_con a{
+  font-size: 2.3rem;
+  }
 
 }
 
@@ -846,6 +1025,47 @@ height: 76px;
 font-size: 2.5rem;
 }
 
+/*
+ABOUT
+*/
+
+.about_text p{
+font-size: 2.3rem;
+}
+
+.about_image{
+width: 280px;
+height: 600px;
+justify-content: center;
+align-items: center;
+}
+
+.about_image_Jeka8833{
+width: 270px;
+height: 270px;
+}
+
+/*
+CONTACTS
+*/
+
+.contact{
+top: 170px;
+}
+
+.contact_block{
+width: 49%;
+height: 600px;
+}
+
+.contact_block p{
+font-size: 2.3rem;
+}
+
+.btn_con a{
+font-size: 2.3rem;
+}
+
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1600px) {
@@ -861,6 +1081,43 @@ height: 100%;
 .desc_block_text p{
 width: 80%;
 }
+
+/*
+CONTACTS
+*/
+
+.contact{
+top: 170px;
+}
+
+.contact_block{
+  width: 420px;
+  height: 500px;
+}
+
+.contact_block p{
+font-size: 2.3rem;
+}
+
+.btn_con a{
+font-size: 2.3rem;
+}
+
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1700px){
+
+  .contact{
+  top: 490px;
+  }
+
+}
+
+@media screen and (min-width: 1700px){
+
+  .contact{
+  top: 420px;
+  }
 
 }
 
@@ -1047,6 +1304,43 @@ margin-top: 40px;
   width: 280px;
   height: 96px;
 font-size: 2.8rem;
+}
+
+/*
+ABOUT
+*/
+
+.about_text p{
+font-size: 2.8rem;
+}
+
+.about_image{
+width: 400px;
+height: 600px;
+}
+
+.about_image_Jeka8833{
+top: 100px;
+width: 360px;
+height: 360px;
+}
+
+.contact_block{
+  width: 540px;
+  height: 690px;
+}
+
+.contact_block p{
+font-size: 2.3rem;
+}
+
+.btn_con a{
+font-size: 2.3rem;
+}
+
+.btn_con{
+  width: 200px;
+  height: 56px;
 }
 
 }
