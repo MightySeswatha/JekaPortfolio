@@ -29,8 +29,8 @@ color: #d8dce7;
 
 .about_text{
 display: block;
+position: relative;
 width: 75%;
-height: 400px;
 }
 
 .about_image{
@@ -39,7 +39,6 @@ position: relative;
 align-items: center;
 justify-content: center;
 width: 25%;
-height: 400px;
 box-sizing:border-box;
 }
 

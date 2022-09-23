@@ -7,13 +7,7 @@ top: 100px;
 
 }
 
-@media screen and (max-width: 300px) and (min-width: 200px){
 
-.about_image_Jeka8833{
-top: 150px;
-}
-
-}
 
 @media screen and (max-width: 340px) and (min-width: 300px){
 
@@ -92,7 +86,6 @@ flex-direction: column;
 
 .desc_text{
 width: 100%;
-height: 300px;
 }
 
 .desc_text p {
@@ -103,11 +96,9 @@ font-size: 2.3rem;
 
 .desc_img{
 width: 100%;
-height: 300px;
 }
 
 .desc_img_Jeka8833{
-margin-top: 80px;
 width: 240px;
 height: 240px;
 }
@@ -174,7 +165,7 @@ height: 38px;
 }
 
 .l_text1{
-right: -35px;
+right: -34px;
 }
 
 .l_text2{
@@ -245,9 +236,9 @@ padding: 0 0 0;
 }
 
 .block_work{
-width: 240px;
-height: 160px;
-margin-right: -10px;
+width: 100%;
+height: 60vw;
+margin-right: 0;
 }
 
 .text_work{
@@ -273,14 +264,11 @@ flex-direction: column;
 
 .about_text{
 width: 90%;
-height: 600px;
 text-align: justify;
 }
 
 .about_image{
-top: -100px;
 width: 90%;
-height: 300px;
 justify-content: center;
 align-items: center;
 }
@@ -381,7 +369,6 @@ font-size: 2.3rem;
 
   .desc_text{
   width: 100%;
-  height: 300px;
   }
 
   .desc_text p {
@@ -392,11 +379,9 @@ font-size: 2.3rem;
 
   .desc_img{
   width: 100%;
-  height: 300px;
   }
 
   .desc_img_Jeka8833{
-  margin-top: 30px;
   width: 240px;
   height: 240px;
   }
@@ -412,7 +397,7 @@ font-size: 2.3rem;
   .btn_get1{
   position: relative;
   display: block;
-  top: -60px;
+  top: -30px;
   margin:auto;
   width: 160px;
   height: 56px;
@@ -444,8 +429,13 @@ font-size: 2.3rem;
 SKILLS
 */
 
+.skills{
+padding-bottom: 0;
+}
+
 .skills .row{
 flex-direction: column;
+padding-bottom: 0;
 }
 
 .skills_text{
@@ -541,9 +531,8 @@ padding: 0 0 0;
 }
 
 .block_work{
-width: 320px;
-height: 210px;
-margin-right: -10px;
+width: 100%;
+height: 60vw;
 }
 
 .text_work{
@@ -594,7 +583,7 @@ CONTACTS
 */
 
 .contact_block{
-width: 75%;
+width: 360px;
 height: 500px;
 }
 
@@ -668,8 +657,8 @@ background-image: url("../images/menu1-icon.png");
 width: 90%;
 }
 
-.desc{
-height: 70%;
+.desc_block_text{
+height: 400px;
 }
 
 .desc_block_text p{
@@ -678,6 +667,7 @@ font-size: 2.8rem;
 }
 
 .desc_img{
+height: 400px;
 align-items: center;
 justify-content: center;
 }
@@ -694,6 +684,10 @@ font-size: 2.5rem;
 /*
 SKILLS
 */
+
+.skills{
+top: 50px;
+}
 
 .skills .row{
 flex-direction: column;
@@ -786,8 +780,8 @@ WORKS
 */
 
 .block_work{
-width: 400px;
-height: 280px;
+width: 85%;
+height: 45vw;
 }
 
 .text_work{
@@ -854,7 +848,7 @@ font-size: 2.3rem;
 
   .contact_block{
   width: 49%;
-  height: 550px;
+  height: 520px;
   }
 
   .contact_block p{
@@ -884,9 +878,8 @@ width: 400px;
 /*
 DESCRIPTION
 */
-
-.desc{
-height: 70%;
+.desc_block_text{
+height: 400px;
 }
 
 .desc_block_text p{
@@ -895,6 +888,7 @@ font-size: 2.5rem;
 }
 
 .desc_img{
+height: 400px;
 align-items: center;
 justify-content: center;
 }
@@ -912,14 +906,19 @@ font-size: 2.5rem;
 SKILLS
 */
 
+.skills{
+top: 60px;
+}
+
 .skills .row{
 flex-direction: column;
+padding-bottom: 56px;
 }
 
 .skills_text{
 width: 100%;
 height: 600px;
-font-size: 2.8rem;
+font-size: 2.5rem;
 }
 
 .diag{
@@ -1002,17 +1001,21 @@ margin-top: 330px;
 WORKS
 */
 
+.works .row{
+flex-direction: column;
+}
+
 .block_work{
-width: 520px;
-height: 340px;
+width: 100%;
+height: 45vw;
 }
 
 .text_work{
-height: 600px;
+width: 95%;
 }
 
 .text_work p{
-font-size: 2.3rem;
+font-size: 2.5rem;
 }
 
 .btn_see{
@@ -1030,14 +1033,12 @@ ABOUT
 */
 
 .about_text p{
-font-size: 2.3rem;
+font-size: 2.5rem;
 }
 
 .about_image{
 width: 280px;
-height: 600px;
-justify-content: center;
-align-items: center;
+margin-top: -400px;
 }
 
 .about_image_Jeka8833{
@@ -1049,13 +1050,9 @@ height: 270px;
 CONTACTS
 */
 
-.contact{
-top: 170px;
-}
-
 .contact_block{
-width: 49%;
-height: 600px;
+width: 480px;
+height: 500px;
 }
 
 .contact_block p{
@@ -1078,29 +1075,39 @@ font-size: 10px;
 height: 100%;
 }
 
+.desc_text,
+.desc_img{
+height: 100%;
+align-items: center;
+justify-content: center;
+}
+
 .desc_block_text p{
 width: 80%;
 }
+
+.block_work{
+width: 60%;
+height: 30vw;
+}
+
+
 
 /*
 CONTACTS
 */
 
-.contact{
-top: 170px;
-}
-
 .contact_block{
-  width: 420px;
-  height: 500px;
+width: 320px;
+height: 440px;
 }
 
 .contact_block p{
-font-size: 2.3rem;
+font-size: 1.6rem;
 }
 
 .btn_con a{
-font-size: 2.3rem;
+font-size: 1.6rem;
 }
 
 }
@@ -1163,6 +1170,10 @@ height: 36px;
 /*
 DESCRIPTION
 */
+.lie_header{
+height: 70px;
+}
+
 .desc_block_text p{
 width: 90%;
 font-size: 2.8rem;
@@ -1301,8 +1312,8 @@ margin-top: 40px;
 }
 
 .btn_see a{
-  width: 280px;
-  height: 96px;
+width: 280px;
+height: 96px;
 font-size: 2.8rem;
 }
 
