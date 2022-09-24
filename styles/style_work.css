@@ -98,4 +98,5 @@ background-color: #22262f;
 font-size: 1.8rem;
 color: #d8dce7;
 transition: 1s;
+z-index: 2;
 }
