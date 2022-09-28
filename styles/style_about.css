@@ -23,8 +23,15 @@ color: #FFB160;
 }
 
 .about p{
+margin: 0;
+padding: 10px;
 font-size: 1.8rem;
 color: #d8dce7;
+}
+
+.about h1{
+padding: 0;
+margin: 0;
 }
 
 .about_text{
@@ -41,6 +48,8 @@ justify-content: center;
 width: 25%;
 box-sizing:border-box;
 }
+
+
 
 .about_image_Jeka8833{
   display: block;
