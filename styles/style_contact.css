@@ -60,7 +60,7 @@ border: 3px solid #FFB160;
 display: block;
 width: 64px;
 height: 64px;
-background-image: url("../images/git-icon.png");
+background-image: url("../images/git-icon.svg");
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -69,7 +69,7 @@ background-size: cover;
 display: block;
 width: 64px;
 height: 64px;
-background-image: url("../images/dis-icon.png");
+background-image: url("../images/dis-icon.svg");
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -78,7 +78,7 @@ background-size: cover;
 display: block;
 width: 64px;
 height: 64px;
-background-image: url("../images/tg-icon.png");
+background-image: url("../images/tg-icon.svg");
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -87,7 +87,7 @@ background-size: cover;
 display: block;
 width: 64px;
 height: 64px;
-background-image: url("../images/ema-icon.png");
+background-image: url("../images/ema-icon.svg");
 background-repeat: no-repeat;
 background-size: cover;
 }

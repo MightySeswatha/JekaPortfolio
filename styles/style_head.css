@@ -191,22 +191,22 @@ transition: 1.5s;
 
 .icon_git{
 margin-right: 15px;
-background-image: url("../images/git-icon.png");
+background-image: url("../images/git-icon.svg");
 }
 
 .icon_dis{
 margin-right: 15px;
-background-image: url("../images/dis-icon.png");
+background-image: url("../images/dis-icon.svg");
 }
 
 .icon_tel{
 margin-right: 15px;
-background-image: url("../images/tg-icon.png");
+background-image: url("../images/tg-icon.svg");
 }
 
 .icon_ema{
 margin-right: 0px;
-background-image: url("../images/ema-icon.png");
+background-image: url("../images/ema-icon.svg");
 }
 
 .icon_git a,
@@ -220,17 +220,17 @@ cursor: pointer;
 }
 
 .icon_git:hover{
-background-image: url("../images/git1-icon.png");
+background-image: url("../images/git1-icon.svg");
 }
 
 .icon_dis:hover{
-background-image: url("../images/dis1-icon.png");
+background-image: url("../images/dis1-icon.svg");
 }
 
 .icon_tel:hover{
-background-image: url("../images/tg1-icon.png");
+background-image: url("../images/tg1-icon.svg");
 }
 
 .icon_ema:hover{
-background-image: url("../images/ema1-icon.png");
+background-image: url("../images/ema1-icon.svg");
 }
