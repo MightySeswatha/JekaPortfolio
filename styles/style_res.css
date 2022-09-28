@@ -1,14 +1,4 @@
 
-@media screen and (max-width: 300px){
-
-.diag{
-top: 100px;
-}
-
-}
-
-
-
 @media screen and (max-width: 340px) and (min-width: 300px){
 
 .about_image_Jeka8833{
@@ -127,18 +117,19 @@ height: 100%;
 align-items: center;
 justify-content: center;
 text-decoration: none;
+background-color: #22262f;
 font-size: 2.3rem;
-background-color: #FFB160;
-color: #22262f;
+color: #d8dce7;
 transition: 1s;
+z-index: 2;
 }
 
 .btn_get1 a:hover{
-background-color: #FFB160;
-color: #eff4ff;
--webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
--moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
+  background-color: #FFB160;
+  color: #eff4ff;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
 }
 
 /*
@@ -151,13 +142,14 @@ flex-direction: column;
 
 .skills_text{
 width: 100%;
-height: 350px;
+height: 100%;
 font-size: 2.3rem;
 }
 
 .diag{
 width: 75%;
-height: 350px;
+height: 100%;
+padding-top: 20px;
 }
 
 .diag_line{
@@ -300,6 +292,14 @@ font-size: 2.3rem;
 
 }
 
+@media screen and (min-width: 500px) and (max-width: 600px){
+
+  .about{
+  padding-bottom: 0px;
+  }
+
+}
+
 @media screen and (min-width: 400px) and (max-width: 600px){
 
   html{
@@ -397,8 +397,8 @@ font-size: 2.3rem;
   .btn_get1{
   position: relative;
   display: block;
-  top: -30px;
-  margin:auto;
+  margin: auto;
+  margin-top: -30px;
   width: 160px;
   height: 56px;
   }
@@ -411,18 +411,19 @@ font-size: 2.3rem;
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  background-color: #22262f;
   font-size: 2.5rem;
-  background-color: #FFB160;
-  color: #22262f;
+  color: #d8dce7;
   transition: 1s;
+  z-index: 2;
   }
 
   .btn_get1 a:hover{
-  background-color: #FFB160;
-  color: #eff4ff;
-  -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
-  box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
+    background-color: #FFB160;
+    color: #eff4ff;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.15);
   }
 
 /*
@@ -439,15 +440,19 @@ padding-bottom: 0;
 }
 
 .skills_text{
+display: block;
 width: 100%;
-height: 600px;
+height: 100%;
 font-size: 2.3rem;
 }
 
 .diag{
 width: 70%;
 height: 320px;
-top: -100px;
+}
+
+.diag_inner{
+height: 100%;
 }
 
 .diag_line{
@@ -551,6 +556,10 @@ font-size: 2.3rem;
 /*
 ABOUT
 */
+
+.about{
+padding-bottom: 48px;
+}
 
 .about .row{
 flex-direction: column;
@@ -659,26 +668,33 @@ width: 90%;
 
 .desc_block_text{
 height: 400px;
+width: 100%;
 }
 
 .desc_block_text p{
-width: 90%;
+width: 100%;
 font-size: 2.8rem;
 }
 
 .desc_img{
 height: 400px;
+width: 100%;
 align-items: center;
 justify-content: center;
 }
 
 .desc_img_Jeka8833{
-width: 250px;
-height: 250px;
+width: 230px;
+height: 230px;
+}
+
+.btn_get{
+width: 200px;
+height: 76px;
 }
 
 .btn_get a{
-font-size: 2.5rem;
+font-size: 2.8rem;
 }
 
 /*
@@ -691,18 +707,20 @@ top: 50px;
 
 .skills .row{
 flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 
 .skills_text{
 width: 100%;
-height: 600px;
+height: 100%;
 font-size: 2.8rem;
 }
 
 .diag{
 width: 70%;
-height: 450px;
-top: -50px;
+height: 100%;
+padding-top: 20px;
 }
 
 .diag_line{
@@ -779,13 +797,19 @@ margin-top: 235px;
 WORKS
 */
 
+.works .row{
+flex-direction: column;
+}
+
+
 .block_work{
 width: 85%;
 height: 45vw;
 }
 
 .text_work{
-height: 530px;
+width: 85%;
+height: 100%;
 }
 
 .text_work p{
@@ -793,7 +817,7 @@ font-size: 2.3rem;
 }
 
 .btn_see{
-margin-top: 40px;
+margin-top: 45px;
 }
 
 .btn_see a{
@@ -822,7 +846,7 @@ CONTACTS
 */
 
 .contact{
-top: 270px;
+
 }
 
 .contact_block{
@@ -879,16 +903,18 @@ width: 400px;
 DESCRIPTION
 */
 .desc_block_text{
+width: 100%;
 height: 400px;
 }
 
 .desc_block_text p{
-width: 90%;
+width: 100%;
 font-size: 2.5rem;
 }
 
 .desc_img{
 height: 400px;
+width: 100%;
 align-items: center;
 justify-content: center;
 }
@@ -898,8 +924,13 @@ width: 260px;
 height: 260px;
 }
 
+.btn_get{
+width: 200px;
+height: 76px;
+}
+
 .btn_get a{
-font-size: 2.5rem;
+font-size: 2.8rem;
 }
 
 /*
@@ -917,14 +948,14 @@ padding-bottom: 56px;
 
 .skills_text{
 width: 100%;
-height: 600px;
+height: 100%;
 font-size: 2.5rem;
 }
 
 .diag{
 width: 70%;
-height: 400px;
-top: 50px;
+height: 100%;
+padding-top: 20px;
 }
 
 .diag_line{
@@ -1006,8 +1037,8 @@ flex-direction: column;
 }
 
 .block_work{
-width: 100%;
-height: 45vw;
+width: 95%;
+height: 42vw;
 }
 
 .text_work{
@@ -1065,7 +1096,7 @@ font-size: 2.3rem;
 
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1600px) {
+@media screen and (min-width: 1025px) and (max-width: 1600px) {
 
 html{
 font-size: 10px;
@@ -1073,25 +1104,34 @@ font-size: 10px;
 
 .desc{
 height: 100%;
+align-items: center;
 }
 
 .desc_text,
 .desc_img{
 height: 100%;
-align-items: center;
-justify-content: center;
+width: 100%;
+}
+
+.desc_img{
+  align-items: center;
+  justify-content: center;
 }
 
 .desc_block_text p{
-width: 80%;
+width: 100%;
 }
 
 .block_work{
-width: 60%;
-height: 30vw;
+width: 540px;
+height: 360px;
 }
 
-
+.text_work{
+box-sizing: border-box;
+width: 400px;
+padding: 0 20px 0;
+}
 
 /*
 CONTACTS
@@ -1109,20 +1149,6 @@ font-size: 1.6rem;
 .btn_con a{
 font-size: 1.6rem;
 }
-
-}
-
-@media screen and (min-width: 1600px) and (max-width: 1700px){
-
-  .contact{
-  top: 490px;
-  }
-
-}
-
-@media screen and (min-width: 1700px){
-
-
 
 }
 
@@ -1197,18 +1223,13 @@ line-height: 3rem;
   height: 480px;
 }
 
-.btn_get,
-.btn_get_shadow{
-  width: 220px;
-  height: 76px;
-}
-
-.btn_get:hover{
-top: 80px;
+.btn_get{
+width: 240px;
+height: 96px;
 }
 
 .btn_get a{
-font-size: 2.3rem;
+font-size: 2.5rem;
 }
 
 /*
@@ -1221,14 +1242,14 @@ flex-direction: column;
 
 .skills_text{
 width: 100%;
-height: 600px;
+height: 100%;
 font-size: 2.3rem;
 }
 
 .diag{
 width: 80%;
-height: 480px;
-top: 50px;
+height: 100%;
+padding-top: 30px;
 }
 
 .diag_line{
@@ -1305,17 +1326,17 @@ margin-top: 355px;
 WORKS
 */
 
-.works .row{
-flex-direction: column;
-}
 
 .block_work{
-width: 80%;
-height: 36vw;
+width: 680px;
+height: 420px;
 }
 
 .text_work{
-width: 100%;
+box-sizing: border-box;
+width: 700px;
+height: 100%;
+padding: 0 20px 0;
 }
 
 .text_work p{
@@ -1336,16 +1357,23 @@ font-size: 2.3rem;
 ABOUT
 */
 
+.about .row{
+align-items: flex-start;
+justify-content: flex-start;
+}
+
 .about_text p{
+height: 100%;
 font-size: 2.3rem;
 }
 
 .about_image{
 width: 400px;
-height: 600px;
+height: 100%;
 }
 
 .about_image_Jeka8833{
+margin-top: 60px;
 width: 360px;
 height: 360px;
 }
