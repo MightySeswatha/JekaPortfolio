@@ -10,6 +10,7 @@ box-sizing: border-box;
 .contact h1{
 font-size: 3.2rem;
 color: #FFB160;
+text-align: center;
 }
 
 .contact h2{

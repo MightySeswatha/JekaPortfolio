@@ -57,7 +57,7 @@ display: flex;
 width: 40px;
 height: 40px;
 margin-left: 10px;
-background-image: url("../images/fox_icon.png");
+background-image: url("../images/fox_icon.svg");
 background-size: cover;
 }
 
@@ -224,7 +224,7 @@ background-image: url("../images/git1-icon.svg");
 }
 
 .icon_dis:hover{
-background-image: url("../images/dis1-icon.svg");
+background-image: url("../images/dis1_icon.svg");
 }
 
 .icon_tel:hover{

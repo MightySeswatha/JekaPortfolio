@@ -51,14 +51,14 @@ justify-content: center;
 .menu-icon a{
 width: 100%;
 height: 100%;
-background-image: url("../images/menu-icon.png");
+background-image: url("../images/menu-icon.svg");
 background-repeat: no-repeat;
 background-size: cover;
 transition: 1s;
 }
 
 .menu-icon a:hover{
-background-image: url("../images/menu1-icon.png");
+background-image: url("../images/menu1-icon.svg");
 }
 
 .wrapper2{
@@ -255,12 +255,12 @@ flex-direction: column;
 }
 
 .about_text{
-width: 90%;
+width: 100%;
 text-align: justify;
 }
 
 .about_image{
-width: 90%;
+width: 100%;
 justify-content: center;
 align-items: center;
 }
@@ -344,14 +344,14 @@ font-size: 2.3rem;
   .menu-icon a{
   width: 100%;
   height: 100%;
-  background-image: url("../images/menu-icon.png");
+  background-image: url("../images/menu-icon.svg");
   background-repeat: no-repeat;
   background-size: cover;
   transition: 1s;
   }
 
   .menu-icon a:hover{
-  background-image: url("../images/menu1-icon.png");
+  background-image: url("../images/menu1-icon.svg");
   }
 
   /*
@@ -566,13 +566,12 @@ flex-direction: column;
 }
 
 .about_text{
-height: 600px;
+width: 100%;
 text-align: justify;
 }
 
 .about_image{
 width: 100%;
-height: 300px;
 justify-content: center;
 align-items: center;
 }
@@ -582,7 +581,6 @@ font-size: 2.3rem;
 }
 
 .about_image_Jeka8833{
-top: 140px;
 width: 240px;
 height: 240px;
 }
@@ -652,14 +650,14 @@ width: 40%;
 .menu-icon1 a{
   width: 100%;
   height: 100%;
-  background-image: url("../images/menu-icon.png");
+  background-image: url("../images/menu-icon.svg");
   background-repeat: no-repeat;
   background-size: cover;
   transition: 1s;
 }
 
 .menu-icon1 a:hover{
-background-image: url("../images/menu1-icon.png");
+background-image: url("../images/menu1-icon.svg");
 }
 
 .wrapper2{
@@ -830,13 +828,23 @@ font-size: 2.5rem;
 ABOUT
 */
 
+.about .row{
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
 .about_text p{
 font-size: 2.3rem;
+text-align: justify;
+}
+
+.about_text{
+width: 85%;
 }
 
 .about_image{
-width: 260px;
-height: 600px;
+width: 85%;
 justify-content: center;
 align-items: center;
 }
@@ -897,6 +905,11 @@ HEADER
 
 .head_block1{
 width: 400px;
+}
+
+.menu-list{
+visibility: hidden;
+display: none;
 }
 
 /*
@@ -1065,13 +1078,24 @@ ABOUT
 
 .about_text p{
 font-size: 2.5rem;
+text-align: justify;
+}
+
+.about .row{
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.about_text{
+width: 95%;
 }
 
 .about_image{
-width: 280px;
-margin-top: -400px;
+width: 95%;
+justify-content: center;
+align-items: center;
 }
-
 .about_image_Jeka8833{
 width: 270px;
 height: 270px;
@@ -1100,6 +1124,11 @@ font-size: 2.3rem;
 
 html{
 font-size: 10px;
+}
+
+.menu-list{
+visibility: hidden;
+display: none;
 }
 
 .desc{
@@ -1152,10 +1181,33 @@ font-size: 1.6rem;
 
 }
 
+@media screen and (min-width: 1600px) and (max-width: 1700px){
+
+.desc_img_Jeka8833{
+width: 380px;
+height: 380px;
+}
+
+}
+
+@media screen and (min-width: 1700px){
+
+.desc_img_Jeka8833{
+width: 480px;
+height: 480px;
+}
+
+}
+
 @media screen and (min-width: 1600px) {
 
 html{
 font-size: 14px;
+}
+
+.menu-list{
+visibility: hidden;
+display: none;
 }
 
 /*
@@ -1216,11 +1268,6 @@ height: 100%;
 width: 90%;
 font-size: 2.3rem;
 line-height: 3rem;
-}
-
-.desc_img_Jeka8833{
-  width: 480px;
-  height: 480px;
 }
 
 .btn_get{
@@ -1363,17 +1410,16 @@ justify-content: flex-start;
 }
 
 .about_text p{
-height: 100%;
 font-size: 2.3rem;
+text-align: justify;
 }
 
 .about_image{
-width: 400px;
+width: 50%;
 height: 100%;
 }
 
 .about_image_Jeka8833{
-margin-top: 60px;
 width: 360px;
 height: 360px;
 }

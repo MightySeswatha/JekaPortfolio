@@ -3,23 +3,30 @@ position: relative;
 display: flex;
 flex-direction: column;
 width: 100%;
-padding: 32px 10px 0px 10px;
+padding: 32px 0px 0px;
 box-sizing: border-box;
 }
 
 .about .row{
+  box-sizing: border-box;
   position: relative;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
-  padding: 16px 0 32px;
+  padding: 16px 10px 32px;
   width: 100%;
 }
 
 .about h1{
 font-size: 3.2rem;
 color: #FFB160;
+text-align: left;
+}
+
+.about h2{
+font-size: 3.1rem;
+color: #FFB160;
+text-align: center;
 }
 
 .about p{
@@ -37,19 +44,17 @@ margin: 0;
 .about_text{
 display: block;
 position: relative;
-width: 75%;
+width: 50%;
+text-align: justify;
 }
 
 .about_image{
 display: flex;
 position: relative;
-align-items: center;
 justify-content: center;
-width: 25%;
+width: 50%;
 box-sizing:border-box;
 }
-
-
 
 .about_image_Jeka8833{
   display: block;
