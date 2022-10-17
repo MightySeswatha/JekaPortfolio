@@ -99,3 +99,17 @@ color: #d8dce7;
 transition: 1s;
 z-index: 2;
 }
+
+.a_work{
+position: absolute;
+width: 640px;
+height: 480px;
+cursor: pointer;
+background-color: black;
+opacity: 0;
+transition: 1s;
+}
+
+.a_work:hover{
+opacity: 0.3;
+}

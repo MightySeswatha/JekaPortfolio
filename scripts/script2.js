@@ -25,24 +25,30 @@ else if(res[j] == "}"){str += res[j]; arr[c] = JSON.parse(str); str = ""; j++; c
 const name1 = document.getElementById('name1');
 const text1 = document.getElementById('text_1');
 const img1 = document.getElementById('img1');
+const a1 = document.getElementById('a1');
 
 const name2 = document.getElementById('name2');
 const text2 = document.getElementById('text_2');
 const img2 = document.getElementById('img2');
+const a2 = document.getElementById('a2');
 
 const name3 = document.getElementById('name3');
 const text3 = document.getElementById('text_3');
 const img3 = document.getElementById('img3');
+const a3 = document.getElementById('a3');
 
 name1.textContent = arr[0]["name"];
 text1.textContent = arr[0]["description"];
 img1.style.backgroundImage = "url('"+arr[0]["image"]+"')";
+a1.href = arr[0]["url"];
 
 name2.textContent = arr[1]["name"];
 text2.textContent = arr[1]["description"];
 img2.style.backgroundImage = "url('"+arr[1]["image"]+"')";
+a2.href = arr[1]["url"];
 
 name3.textContent = arr[2]["name"];
 text3.textContent = arr[2]["description"];
 img3.style.backgroundImage = "url('"+arr[2]["image"]+"')";
+a3.href = arr[2]["url"];
 }

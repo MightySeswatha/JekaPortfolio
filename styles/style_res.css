@@ -233,6 +233,12 @@ height: 60vw;
 margin-right: 0;
 }
 
+.a_work{
+width: 100%;
+height: 60vw;
+margin-right: 0;
+}
+
 .text_work{
 width: 100%;
 height: 100%;
@@ -540,6 +546,11 @@ width: 100%;
 height: 60vw;
 }
 
+.a_work{
+width: 100%;
+height: 60vw;
+}
+
 .text_work{
 width: 100%;
 height: 100%;
@@ -805,6 +816,11 @@ width: 85%;
 height: 45vw;
 }
 
+.a_work{
+width: 85%;
+height: 45vw;
+}
+
 .text_work{
 width: 85%;
 height: 100%;
@@ -1054,6 +1070,11 @@ width: 95%;
 height: 42vw;
 }
 
+.a_work{
+width: 95%;
+height: 42vw;
+}
+
 .text_work{
 width: 95%;
 }
@@ -1152,6 +1173,11 @@ width: 100%;
 }
 
 .block_work{
+width: 540px;
+height: 360px;
+}
+
+.a_work{
 width: 540px;
 height: 360px;
 }
@@ -1375,6 +1401,11 @@ WORKS
 
 
 .block_work{
+width: 680px;
+height: 420px;
+}
+
+.a_work{
 width: 680px;
 height: 420px;
 }
